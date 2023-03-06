@@ -1,0 +1,46 @@
+.counterWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: rgb(219, 211, 211);
+    margin: 2rem;
+    border-radius: 6px;
+}
+
+.decreesBtn,
+.increaseBtn {
+    width: 50%;
+    padding: 1rem 0.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.decreesBtn {
+    background-color: red;
+
+}
+
+.increaseBtn {
+    background-color: green;
+}
+
+.counterValue {
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+}
+
+.counterInput {
+    padding: 1rem 0.5rem;
+    font-size: 2rem;
+    border-radius: 6px;
+    outline: none;
+    border: 2px solid #ccc;
+}

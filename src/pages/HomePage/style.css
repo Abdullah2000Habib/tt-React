@@ -1,12 +1,11 @@
 .homePageWrapper {
-    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.cards {
+.cardsSection {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,4 +17,13 @@
 .pageTitle {
     font-size: 40px;
     font-weight: bold;
+}
+
+.counterSection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 0;
+    background-color: rgb(141, 255, 247);
 }

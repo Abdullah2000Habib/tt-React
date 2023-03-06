@@ -7,7 +7,7 @@ class Button extends React.Component {
     }
 
     changeHandelr = ()=> {
-        this.setState((prev)=>( {...prev, mode : prev.mode === 'dark'?'light' :'dark'}));
+        this.setState((prev)=>{return{...prev, mode : prev.mode === 'dark'?'light' :'dark'}});
     };
 
     render(){

@@ -6,11 +6,13 @@ const Post = () => {
     const {id} = useParams();
     let myPost = PostData.find((item)=>item.id === Number(id));
     return (
+        myPost?(
         <div className='PostWrapper'>
-            <span className='postId'>id:{myPost.id}</span>
-            <span className='postTitle'>Title:{myPost.title}</span>
-            <span className='postBody'>body:{myPost.description}</span>
-        </div>
+            <span className='postId'>id:{myPost?.id}</span>
+            <span className='postTitle'>Title:{myPost?.title}</span>
+            <span className='postBody'>body:{myPost?.description}</span>
+        </div>):<h1 style={{color:'red'}}>ERROR Page Not Found 404</h1>
+
     );
 }
 

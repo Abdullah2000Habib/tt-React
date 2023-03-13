@@ -1,15 +1,13 @@
 import React from "react";
 import Card from "../../components/Card/Card";
 import Counter from "../../components/Counter/Counter";
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
 import "./style.css";
 class HomePage extends React.Component {
 
     render(){
         return(
             <>
-                <Header/>
+                
                 <div className="homePageWrapper">
                     <h2 className="pageTitle">Home Page</h2>
                     <section className="cardsSection">
@@ -21,7 +19,7 @@ class HomePage extends React.Component {
                         <Counter/>
                     </section>
                 </div>
-                <Footer/>
+                
             </>
         )
     }
